@@ -1,8 +1,9 @@
 body{
   background-image: url(./currency_bg.jpg);
-  /* background-repeat: no-repeat; */
+  background-repeat: no-repeat;
   background-size:cover;
- 
+
+  min-height: 100vh;
 }
 h1{
   text-align: center;
