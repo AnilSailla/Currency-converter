@@ -1,13 +1,61 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  background-image: url(./currency_bg.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+ 
+}
+h1{
+  text-align: center;
+  margin-top: 70px;
+}
+.container{
+min-width:30vw;
+max-width: 25rem;
+margin:60px auto auto;
+background-color: rgba(128, 128, 128 ,0.5);
+padding: 30px 30px;
+border-radius: 10px;
+color: grey;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+row-gap: 3px;
+
+}
+.btn{
+  border-radius: 3px;
+  
+  cursor: pointer;
+  color: white;
+  background-color:rgb(26, 140, 255);
+}
+.swap-btn{
+  border: 1px solid white;
+  position: absolute;
+  top: 285px;
+}
+.convert-btn{
+  border-style:none;
+  margin-top: 5px;
+  width: 330px;
+  height: 25px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.input-container{
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  width: 18rem;
+  padding: 15px 20px;
+  border-radius: 5px;
+}
+.input-container input{
+margin-top: 25px;
+}
+
+.select-box select{
+  margin-top: 45px;
+  margin-left: 70px;
+
 }
